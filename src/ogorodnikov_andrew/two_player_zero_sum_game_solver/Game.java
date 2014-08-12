@@ -321,7 +321,7 @@ public class Game {
      * Получить седловую точку, если она есть.
      * @return Седловая точка. Если седловой точки нет, то null.
      */
-    public final SaddlePoint getSaddlePoint() {
+    public SaddlePoint getSaddlePoint() {
         //get game value bounds
 
         //lower bound
@@ -353,7 +353,7 @@ public class Game {
      * Получить нижнюю границу цены игры.
      * @return Нижняя граница цены игры.
      */
-    public final Point getLowerBound() {
+    public Point getLowerBound() {
         //lower bound value
         double max_a;
         //lower bound index
@@ -400,7 +400,7 @@ public class Game {
      * Получить верхнюю границу цены игры.
      * @return Верхняя граница цены игры.
      */
-    public final Point getUpperBound() {
+    public Point getUpperBound() {
         //algorithm is similar to getLowerBound()
         double min_b;
         int min_b_index;
