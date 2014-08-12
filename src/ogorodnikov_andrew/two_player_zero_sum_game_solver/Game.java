@@ -196,7 +196,7 @@ public class Game {
     /**
      * Поиск доминирования среди строк.
      */
-    private final void searchRowDomination() {
+    private void searchRowDomination() {
         ArrayList<Boolean> isRowRemoved = new ArrayList<Boolean>();
         for(int i=0;i< payoffMatrix.getRowDimension();i++)
         {
@@ -258,7 +258,7 @@ public class Game {
     /**
      * Поиск доминирования среди столбцов.
      */
-    private final void searchColumnDomination() {
+    private void searchColumnDomination() {
         ArrayList<Boolean> isColumnRemoved = new ArrayList<Boolean>();
         for(int j=0;j< payoffMatrix.getColumnDimension();j++)
         {
